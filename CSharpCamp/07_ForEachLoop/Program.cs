@@ -74,56 +74,56 @@ namespace _07_ForEachLoop
 
 			#region Sample exam system application
 
-			//Console.Write("***** C# Trainin Camp Exam System Application *****");
-			//Console.WriteLine();
-			//Console.WriteLine();
-			//Console.WriteLine();
-			//Console.WriteLine();
+			Console.Write("***** C# Trainin Camp Exam System Application *****");
+			Console.WriteLine();
+			Console.WriteLine();
+			Console.WriteLine();
+			Console.WriteLine();
 
-			//// Getting the number of students in the class from the user
-			//Console.WriteLine("------------------------------");
-			//Console.Write("How many students are there in your class: ");
-			//int studentCount = int.Parse(Console.ReadLine());
-			//Console.WriteLine("------------------------------");
+			// Getting the number of students in the class from the user
+			Console.WriteLine("------------------------------");
+			Console.Write("How many students are there in your class: ");
+			int studentCount = int.Parse(Console.ReadLine());
+			Console.WriteLine("------------------------------");
 
-			//// Arrays to store student names and their grade averages
-			//string[] studentNames = new string[studentCount];
-			//double[] studentExamAvg = new double[studentCount];
+			// Arrays to store student names and their grade averages
+			string[] studentNames = new string[studentCount];
+			double[] studentExamAvg = new double[studentCount];
 
-			//for (int i = 0; i < studentCount; i++)
-			//{
-			//	Console.Write($"Please enter the name of the {i+1}. student: ");
-			//	studentNames[i] = Console.ReadLine();
+			for (int i = 0; i < studentCount; i++)
+			{
+				Console.Write($"Please enter the name of the {i + 1}. student: ");
+				studentNames[i] = Console.ReadLine();
 
-			//	double totalExamResult = 0;
+				double totalExamResult = 0;
 
-			//	// Entering 3 exam scores for each student
-			//	for (int j = 0; j < 3; j++)
-			//	{
-			//		Console.Write($"{studentNames[i]}'s {j+1}. exam result: ");
-			//		double value = double.Parse(Console.ReadLine());
-			//		totalExamResult += value;
-			//	}
-			//	Console.WriteLine();
-			//	studentExamAvg[i] = totalExamResult / 3;
-			//}
+				// Entering 3 exam scores for each student
+				for (int j = 0; j < 3; j++)
+				{
+					Console.Write($"{studentNames[i]}'s {j + 1}. exam result: ");
+					double value = double.Parse(Console.ReadLine());
+					totalExamResult += value;
+				}
+				Console.WriteLine();
+				studentExamAvg[i] = totalExamResult / 3;
+			}
 
-			//for (int i = 0;i < studentCount; i++)
-			//{
-			//	Console.WriteLine("-------------------------------------");
+			for (int i = 0; i < studentCount; i++)
+			{
+				Console.WriteLine("-------------------------------------");
 
-			//	Console.WriteLine($"{studentNames[i]}'s average of exam results: {studentExamAvg[i]}");
+				Console.WriteLine($"{studentNames[i]}'s average of exam results: {studentExamAvg[i]}");
 
-			//	if (studentExamAvg[i] >= 50)
-			//	{
-			//		Console.WriteLine($"{studentNames[i]} passed the course");
-			//	}
-			//	else
-			//	{
-			//		Console.WriteLine($"{studentNames[i]} failed the course");
-			//	}
-			//	Console.WriteLine("-------------------------------------");
-			//}
+				if (studentExamAvg[i] >= 50)
+				{
+					Console.WriteLine($"{studentNames[i]} passed the course");
+				}
+				else
+				{
+					Console.WriteLine($"{studentNames[i]} failed the course");
+				}
+				Console.WriteLine("-------------------------------------");
+			}
 
 			#endregion
 
