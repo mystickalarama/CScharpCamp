@@ -4,10 +4,12 @@
 
 
 ##💾 <span Color="rgb(109, 101, 178)">01_MainSubjects</span>
+
 Here, we learn about our main topics and start our training 
 by printing them to the console.
 
 ##💾 <span Color="rgb(109, 101, 178)">02_Variables</span>
+
 Building on the int and string variables we saw in the first lesson, 
 we explored other fundamental variable types and applied various 
 operations to them. We also learned how to take user input and perform 
