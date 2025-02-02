@@ -1,45 +1,42 @@
-<div align="center" Color="Aqua"> 
-  <h1>🖥️C# Training Camp🖥️</h1> 
+<div align="center" Color="Aqua">
+  <h1>🖥️C# Eğitim Kampı🖥️</h1>
 </div>
 
+## 💾 <span Color="rgb(109, 101, 178)">01_MainSubjects</span>
 
-##💾 <span Color="rgb(109, 101, 178)">01_MainSubjects</span>
+Burada ana başlıklarımızın ne olacağını öğrenip konsola yazdırma komutu ile eğitimimize başlıyoruz.
 
-Here, we learn about our main topics and start our training 
-by printing them to the console.
 
-##💾 <span Color="rgb(109, 101, 178)">02_Variables</span>
+## 💾 <span Color="rgb(109, 101, 178)">02_Variables</span>
 
-Building on the int and string variables we saw in the first lesson, 
-we explored other fundamental variable types and applied various 
-operations to them. We also learned how to take user input and perform 
-type conversions.
+İlk derste görmüş olduğumuz int ve string değişkenlerinin üzerinde diğer temel değişkenleri görerek üzerlerinde çeşitli işlemler uyguladık. Ayrıca kullanıcıdan input almayı ve değişken dönşümlerini de görmüş olduk.
 
-##💾 <span Color="rgb(109, 101, 178)">03_MakingDecision</span>
-We learned about decision-making structures such as if-else and 
-switch-case, and we applied them by creating a simple menu and 
-a four-operation calculator.
 
-##💾 <span Color="rgb(109, 101, 178)">04_Loops</span>
-We studied for and while loops, integrating them with the concepts
-we had learned in previous lessons.
+## 💾 <span Color="rgb(109, 101, 178)">03_MakingDecision</span>
 
-##💾 <span Color="rgb(109, 101, 178)">05_LoopsWithStars</span>
-In this lesson, we used the asterisk symbol (*) to create various 
-patterns using loops. Creating these patterns helps in understanding 
-programming logic, practicing loops and conditions, and developing 
-systematic problem-solving skills.
+Karar verme yapıları olan if-else ile switch-case yapılarını öğrenip basit bir menü ve 4 işlemli hesap makinesi ile örneklendirdik.
 
-##💾 <span Color="rgb(109, 101, 178)">06_Arrays</span>
-With this lesson, we introduced arrays. We learned how to print arrays, 
-let users create them, and explored methods such as Min, Max, and IndexOf.
 
-##💾 <span Color="rgb(109, 101, 178)">07_ForeachLoop</span>
-We explored the foreach loop and discovered how useful it is, especially 
-when working with arrays and lists. We also illustrated its usage 
-with a small quiz system.
+## 💾 <span Color="rgb(109, 101, 178)">04_Loops</span>
 
-##💾 <span Color="rgb(109, 101, 178)">08_Methods</span>
-In this lesson, we introduced methods, covering different types such 
-as those that return values, those that do not, and methods with or 
-without parameters. We reinforced our learning with various examples.
+For ile while döngü yapılarını öğrenerek önceki derslerden öğrendiklerimizle harmanladık.
+
+
+## 💾 <span Color="rgb(109, 101, 178)">05_LoopsWithStars</span>
+
+Bu derste yıldız sembölünü (*) kullanarak, döngülerle çeşitli şekiller meydana getirdik. Bu desenleri oluşturmak, programlama mantığını kavramak, döngüler ve koşullar üzerinde pratik yapmak ve sorunları sistematik bir şekilde çözme becerilerini geliştirmek açısından epey fayda sağlamaktadır.
+
+
+## 💾 <span Color="rgb(109, 101, 178)">06_Arrays</span>
+
+Bu ders ile birlikte dizilere giriş yaptık. Dizi yazdırma ve kullanıcıya dizi oluşturtmanın yanı sıra min max indexof gibi methodları da görmüş olduk.
+
+
+## 💾 <span Color="rgb(109, 101, 178)">07_ForeachLoop</span>
+
+Foreach döngüsüne giriş yaparak özellikle dizi ve list bazında ne kadar kullanışlı olduğunu keşfetmiş olduk. Ayrıca ufak bir sınav sistemi ile örneklendirmiş olduk.
+
+
+## 💾 <span Color="rgb(109, 101, 178)">08_Methods</span>
+
+Bu dersimizde de methodlara giriş yaparak, değer döndüren ve döndürmeyen ayrıca parametre alan ve almayan method çeşitleri görüp örneklerle çeşitlendirdik.
